@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T04:32:08Z" name="DemoProject" finished-at="2023-07-12T04:32:16Z" duration-ms="7601">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T04:32:08Z" name="Tests" finished-at="2023-07-12T04:32:16Z" duration-ms="7601">
+      <class name="com.sample.test.demo.tests.OrderEntryTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:08Z" name="init" finished-at="2023-07-12T04:32:10Z" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:10Z" name="setUp" finished-at="2023-07-12T04:32:11Z" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveTest1()[pri:1, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:11Z" name="positiveTest1" finished-at="2023-07-12T04:32:11Z" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:11Z" name="tearDown" finished-at="2023-07-12T04:32:12Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:12Z" name="setUp" finished-at="2023-07-12T04:32:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveTest2()[pri:2, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:12Z" name="positiveTest2" finished-at="2023-07-12T04:32:13Z" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="tearDown" finished-at="2023-07-12T04:32:13Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="negativeTest2()[pri:3, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="negativeTest2" finished-at="2023-07-12T04:32:13Z" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest2 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="setUp" finished-at="2023-07-12T04:32:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="tearDown" finished-at="2023-07-12T04:32:13Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="setUp" finished-at="2023-07-12T04:32:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeTest1()[pri:4, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:13Z" name="negativeTest1" finished-at="2023-07-12T04:32:14Z" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:14Z" name="tearDown" finished-at="2023-07-12T04:32:14Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:14Z" name="setUp" finished-at="2023-07-12T04:32:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="boundaryTest1()[pri:5, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:14Z" name="boundaryTest1" finished-at="2023-07-12T04:32:15Z" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundaryTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:15Z" name="tearDown" finished-at="2023-07-12T04:32:15Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="boundaryTest2()[pri:6, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:15Z" name="boundaryTest2" finished-at="2023-07-12T04:32:16Z" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boundaryTest2 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:15Z" name="setUp" finished-at="2023-07-12T04:32:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.OrderEntryTest@87a85e1]" started-at="2023-07-12T04:32:16Z" name="tearDown" finished-at="2023-07-12T04:32:16Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.OrderEntryTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- DemoProject -->
+</testng-results>

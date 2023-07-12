@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoProject]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="5" name="Tests(failed)" verbose="10">
+    <classes>
+      <class name="com.sample.test.demo.tests.OrderEntryTest">
+        <methods>
+          <include name="positiveTest1"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="negativeTest2"/>
+          <include name="negativeTest1"/>
+          <include name="positiveTest2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sample.test.demo.tests.OrderEntryTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [DemoProject] -->

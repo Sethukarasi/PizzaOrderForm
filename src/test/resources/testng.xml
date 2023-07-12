@@ -1,14 +1,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="DemoProject" verbose="10">
 	<test name="Tests">
-		<!-- Enter group name to execute specific set of tests -->
-		<groups>
-			
-		</groups>
-		<!-- List individual packages to execute below -->
-		<packages>
-			<package name="com.sample.test.demo.tests.*" />
-		</packages>
+		<classes>
+			<class name = "com.sample.test.demo.tests.OrderEntryTest">
+				<methods>
+					<include name="positiveTest1"/>
+					<include name="positiveTest2"/>
+					<include name="negativeTest1"/>
+					<include name="negativeTest2"/>
+					<include name="boundaryTest1"/>
+					<include name="boundaryTest2"/>
+					<exclude name="excludeTest"/>
+				</methods>
+			</class>
+		</classes>
+		
 	</test>
 </suite>
 
